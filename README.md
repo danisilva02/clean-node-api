@@ -1,1 +1,1 @@
-# nodejs_typescript_tdd_ddd_clean_architecture_e_solid
+# https://www.npmjs.com/package/git-commit-msg-linter
