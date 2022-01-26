@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/danisilva02/nodejs_typescript_tdd_ddd_clean_architecture_e_solid/issues"
   },
-  "homepage": "https://github.com/danisilva02/nodejs_typescript_tdd_ddd_clean_architecture_e_solid#readme"
+  "homepage": "https://github.com/danisilva02/nodejs_typescript_tdd_ddd_clean_architecture_e_solid#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.0.7"
+  }
 }
