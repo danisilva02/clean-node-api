@@ -5,9 +5,9 @@ describe('SignUp Controller', () => {
     const sut = new SignUpController()
     const httpRequest = {
       // name: 'any_name',
-      email: 'any_email',
-      password: 'any_password',
-      passwordConfirmation: 'any_password_confirmation'
+      email: 'any_email!',
+      password: 'any_password!',
+      passwordConfirmation: 'any_password_confirmation!'
     }
     const httpResponse = sut.handle(httpRequest)
     expect(httpResponse.statusCode).toBe(400)
