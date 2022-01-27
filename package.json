@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "test": "jest --passWithNoTest",
-    "test:staged": "npm run jest --passWithNoTest"
+    "test:staged": "npm run test --passWithNoTest"
   },
   "repository": {
     "type": "git",
