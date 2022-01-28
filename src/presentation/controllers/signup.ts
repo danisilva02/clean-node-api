@@ -1,6 +1,5 @@
 import { HttpRequest, HttpResponse } from '../protocols/http'
-import { MissingParamName } from '../erros/missing-param-error'
-import { InvalidParamError } from '../erros/invalid-param-error'
+import { MissingParamName, InvalidParamError } from '../erros'
 import { badRequest, serverError } from '../helpers/http-helper'
 import { Controller } from '../protocols/controller'
 import { EmailValidator } from '../protocols/email-validator'
